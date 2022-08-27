@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nanjangud University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>UG Courses</h1>
+    </section>
+
+     <!-- ---------Courses offered-------- -->
+    <section class="course">
+        <h1>Courses</h1>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, consectetur</p> -->
+        <div class="row">
+            <div class="course-col">
+                <h3>
+                    Computer Science & Engineering
+                </h3>
+                <p>
+                    Computer Science Engineering is an academic programme which integrates the field of Computer Engineering and Computer Science. The programme lays emphasis on the basics of computer programming and networking, and aims to teach designing, developing and troubleshooting computing devices and systems.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>
+                    Artificial Intelligence/Machine Learning
+                </h3>
+                <p>
+                    Artificial Intelligence presents a solid foundation in the principles and technologies that underlie many facets of AI, including logic, knowledge representation, probabilistic models, and machine learning.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>
+                    Information Science & Engineering
+                </h3>
+                <p>
+                    The Bachelor in Information Science and Engineering is a top-tier program for disruptive individuals aspiring to change the world of technology as we know it. Students use innovation to help build technologies that break new ground.
+                </p>
+            </div>
+        </div>
+    </section>
+
+      <!-- -----------Facilities-------- -->
+    <section class="facilities">
+        <h1>Facilities</h1>
+        <p>Our college offers maximum facilities possible for the benefit of students</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png">
+                <h3>World Class Library</h3>
+                <p>The library is the source of knowledge in any Institute. Our Library consists of reference section, lending section, and also the digital library, A unique feature of our library is that students can borrow laptops like a book.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball.png">
+                <h3>Largest Playground</h3>
+                <p>With the belief "A Healthy mind in a healthy body", our college forays into sports arena and provides following facilities Cricket field , Football field, Hockey field, Volley ball court, Basket ball courts (both indoor and outdoor)Badminton courts (both indoor and outdoor), Shuttle badminton, Table tennis , Indoor games facility and Gymnasium</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p>The college canteen is a place where students congregate to not only eat but exchange views. Our Food Court has a modern kitchen.The washed dishes are sterilized for hygienic serving. On campus we also have an extension food court counter.</p>
+            </div>
+        </div>
+    </section>
+    
+<!-- -------Footer------- -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Achieving Excellence in Technical Education, Research and Consulting through an Outcome Based Curriculum<br> focusing on Continuous Improvement and Innovation by Benchmarking against the global Best Practices.</p>
+    <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+    </div>
+<p>Made by Abhilash R Prasad</p>
+
+</section>
+</body>
+
+
+
+
+
+
+
+
+
+<script>
+    var navLinks = document.getElementById('navLinks');
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</html>
